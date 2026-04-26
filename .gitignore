@@ -1,0 +1,56 @@
+# CMake / Ninja out-of-source builds
+/build/
+/cmake-build-*/
+/CMakeCache.txt
+/CMakeFiles/
+/cmake_install.cmake
+/install_manifest.txt
+/compile_commands.json
+/Testing/
+/Makefile
+/CMakeUserPresets.json
+
+# STM32CubeIDE / Eclipse local metadata
+/.settings/
+/.metadata/
+/.project
+/.cproject
+/.externalToolBuilders/
+/Debug/
+/Release/
+/*.launch
+
+# Editor-specific local settings
+/.vscode/*
+!/.vscode/launch.json
+!/.vscode/tasks.json
+!/.vscode/extensions.json
+/.vscode/settings.json
+/.vscode/c_cpp_properties.json
+/.vscode/ipch/
+/.idea/
+/.vs/
+
+# Firmware build artifacts
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.o
+*.obj
+*.d
+*.su
+
+# Debugger / probe logs
+.gdb_history
+openocd.log
+openocd*.log
+JLink.log
+JLink*.log
+jlink.log
+jlink*.log
+
+# OS-generated files
+Thumbs.db
+.DS_Store
