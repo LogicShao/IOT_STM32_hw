@@ -24,9 +24,9 @@ cmake --build --preset Release
 
 | 模块 | Demo 文件 | 说明 |
 |---|---|---|
-| 红绿灯 | `Core/Src/Demo/demo_trafficlight_main.c` | FSM 状态机，按键调时长，倒计时切换 |
-| 模拟电梯 | `Core/Src/Demo/demo_elevator_main.c` | 8 状态 FSM，楼层选择，自动归位 |
-| 直流电表 | `Core/Src/Demo/demo_energymeter_main.c` | HT7017 采样，数码管显示，RS485/蓝牙发送 |
+| 红绿灯 | `Core/Demo/demo_trafficlight_main.c` | FSM 状态机，按键调时长，倒计时切换 |
+| 模拟电梯 | `Core/Demo/demo_elevator_main.c` | 8 状态 FSM，楼层选择，自动归位 |
+| 直流电表 | `Core/Demo/demo_energymeter_main.c` | HT7017 采样，数码管显示，RS485/蓝牙发送 |
 
 使用方法：将对应 demo 文件复制到 `Core/Src/main.c` 即可编译运行。
 
