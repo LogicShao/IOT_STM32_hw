@@ -22,6 +22,7 @@ Use C11 and follow the existing STM32/HAL style: 4-space indentation, braces on 
 No unit test framework or `tests/` directory is configured yet. Every change must pass a clean `Debug` and `Release` build. For hardware-facing changes, run a board smoke test covering boot, GPIO, and any touched peripherals such as UART, I2C, or timers. Document the exact validation steps in your PR.
 
 ## Commit & Pull Request Guidelines
+**AI 仅拥有 Git 只读权限，禁止执行任何 Git 写操作（commit、push、rebase、tag 等）。** Commit 由用户自行完成。
 This repository currently has no Git history, so there is no inherited commit convention to copy. Use concise imperative Conventional Commit messages such as `feat: add rs485 transmit helper` or `fix: correct timer prescaler`. Keep PRs small, describe the hardware impact, list regenerated CubeMX files, and include proof of validation such as serial logs, logic-analyzer captures, or board photos when behavior is visible.
 
 ## STM32-Specific Notes
