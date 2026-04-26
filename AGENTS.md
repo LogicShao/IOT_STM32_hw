@@ -16,6 +16,8 @@ If you change clocks, pins, or peripherals, regenerate from the `.ioc` file and 
 ## Coding Style & Naming Conventions
 Use C11 and follow the existing STM32/HAL style: 4-space indentation, braces on the same line, and short single-purpose functions. Keep module files lowercase, paired as `Core/Src/<module>.c` and `Core/Inc/<module>.h`. Preserve established API naming such as `TEST_LED_On`, `MX_GPIO_Init`, and `Error_Handler`. Comments should stay in English to match the current codebase. No formatter or linter config is committed, so keep `-Wall` builds warning-free.
 
+**File naming**: Use short English abbreviations, not long descriptive names. Prefer `lab_req.md` over `experiment_requirements_summary.md`. Keep doc filenames concise and lowercase.
+
 ## Testing Guidelines
 No unit test framework or `tests/` directory is configured yet. Every change must pass a clean `Debug` and `Release` build. For hardware-facing changes, run a board smoke test covering boot, GPIO, and any touched peripherals such as UART, I2C, or timers. Document the exact validation steps in your PR.
 

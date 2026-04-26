@@ -54,3 +54,6 @@ jlink*.log
 # OS-generated files
 Thumbs.db
 .DS_Store
+
+# Misc
+# class_doc/
