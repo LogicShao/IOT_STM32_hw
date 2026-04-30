@@ -58,3 +58,25 @@ Thumbs.db
 # Misc
 # class_doc/
 *.bak
+*.docx
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.bcf
+*.run.xml
+report/*.pdf
